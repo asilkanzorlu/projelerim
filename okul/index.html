@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Uygulama</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navlinks">
+                <img class="menu-ikon" src="img/close.png" onclick="menuyuKapa()">
+                <ul>
+                    <li><a href="">ANASAYFA</a></li>
+                    <li><a href="">HAKKIMIZDA</a></li>
+                    <li><a href="">DERSLER</a></li>
+                    <li><a href="">ŞUBELER</a></li>
+                    <li><a href="">BİZE ULAŞIN</a></li>
+                </ul>
+            </div>
+            <img src="img/menu.png"class="menu-ikon" onclick="menuyuAc()">
+        </nav>
+        <div class="text-box">
+            <h1>Dünyanın En İyi Üniversitesi</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi neque dolore incidunt repellendus magnam maxime adipisci suscipit in, iste tempore molestias voluptatibus laudantium iusto dolorem accusamus. Magni exercitationem sed aspernatur.</p>
+            <a href="" class="main-btn">Daha Fazla Bilgi Alın</a>
+        </div>
+    </section>
+    <section class="dersler">
+        <h1>Derslerimiz</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint ex nisi, sit facere minima quisquam eum eligendi nostrum aliquid dolor, ad non culpa ipsa in neque quis blanditiis totam! Velit.</p>
+        <div class="satir">
+            <div class="ders-sutunu">
+                <h3>HTML</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi mollitia impedit fugit vero nesciunt earum suscipit recusandae fuga distinctio fugiat, vitae neque, pariatur quidem illo! Ratione assumenda blanditiis totam velit.</p>
+            </div>
+            <div class="ders-sutunu">
+                <h3>CSS</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi mollitia impedit fugit vero nesciunt earum suscipit recusandae fuga distinctio fugiat, vitae neque, pariatur quidem illo! Ratione assumenda blanditiis totam velit.</p>
+            </div>
+            <div class="ders-sutunu">
+                <h3>Java Script</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi mollitia impedit fugit vero nesciunt earum suscipit recusandae fuga distinctio fugiat, vitae neque, pariatur quidem illo! Ratione assumenda blanditiis totam velit.</p>
+            </div>
+        </div>
+    </section>
+    <section class="subeler">
+        <h1>Şubelerimiz</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe hic doloribus facilis molestias porro natus sunt ipsam, dicta eveniet nemo alias. Repellat quos nesciunt vitae minus odit quod incidunt eligendi.</p>
+        <div class="satir">
+            <div class="sube-sutunu">
+                <img src="img/istanbul.png" alt="istanbul">
+                <div class="katman">
+                    <h3>İSTANBUL</h3>
+                </div>
+            </div>
+            <div class="sube-sutunu">
+                <img src="img/ankara.png" alt="ankara">
+                <div class="katman">
+                    <h3>ANKARA</h3>
+                </div>
+            </div>
+            <div class="sube-sutunu">
+                <img src="img/izmir.png" alt="izmir">
+                <div class="katman">
+                    <h3>İZMİR</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <h4>Sosyal Medyada Bizi Takip Edin</h4>
+        <div class="ikonlar">
+            <img src="img/facebook.png" alt="facebook-ikon">
+            <img src="img/twitter.png" alt="twitter-ikon">
+            <img src="img/instagram.png" alt="instagram-ikon">
+            <img src="img/linkedin.png" alt="linkedin-ikon">
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam doloribus, esse molestias nesciunt maxime temporibus exercitationem quasi minima facere expedita consectetur in libero, porro atque illum praesentium maiores! Eveniet, sed?</p>
+    </section>
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function menuyuAc() {
+            navlinks.style.right = "0";
+        }
+
+        function menuyuKapa() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
