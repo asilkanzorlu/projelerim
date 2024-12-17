@@ -1,0 +1,171 @@
+.default {
+    background-color: rgb(211, 206, 206);
+    width: 95%;
+    height: 2400px;
+  margin: auto;
+
+
+}
+.header {
+    width: 100%;
+    height: 450px;
+    background-color:white;
+   
+    
+}
+
+#nav {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(245, 178, 191);
+    float: left;
+}
+.content {
+    width: 100%;
+    height: 1900px;
+    background-color: white;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(245, 178, 191);
+}
+.footer {
+    width: 100%;
+    background-color: rgb(80, 82, 76);
+    float: left;
+    text-align: center;
+    padding: 30px 0;
+   
+}
+
+.footer img {
+    width: 50px;
+        height: 50px;
+}
+
+.header a img{
+   width: 500px;
+   height: 100%;
+    float: left;
+}
+.header .Gizli-p  {
+    text-align: center;
+    font-size: 4vh;
+    padding: 3vh;
+    color:  rgb(245, 178, 191);
+}
+
+#nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 7px;
+    position: relative;
+ 
+}
+#nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 3vh;
+
+}
+#nav ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: #ffffff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+#nav ul li:hover::after{
+    width: 100%;
+}
+.content p {
+    font-size: 2vh;
+}
+.btnmenu{
+    display: none;
+}
+
+.content img {
+display: flex;
+padding: 5px;
+margin: auto;
+width: 40%;
+height: 320px;
+}
+
+.content  img:hover{
+    border: 10px solid white;
+    background-color: rgba(245, 178, 191,0.7) ;
+ 
+}
+
+
+@media (max-width: 700px){ 
+
+    .btnmenu{
+        background-color: rgb(245, 178, 191);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  float: right;
+    }
+    .header a img{
+   width: 50%;
+   height: 50%;
+    float: left;
+
+
+   
+}
+.header {
+    height: 600px;
+}
+
+#nav {
+    width: 100%;
+height: 250px;
+display: none;
+    
+}
+#nav ul li {
+    text-align: left;
+    display: block;
+
+}
+
+.default {
+    
+    height: 2300px;
+ 
+
+
+}
+.content {
+  height: 2100px;
+    padding-top: 201px;
+    
+}
+.content iframe {
+  
+
+  width: 85%;
+}
+
+
+.content img {
+width: 75%;
+padding: 5px;
+text-align: center;
+margin: auto;
+}
+
+
+}

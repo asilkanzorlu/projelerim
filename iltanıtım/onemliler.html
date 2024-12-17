@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/onemliler.css">
+    <style>
+        *{
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    body {
+        background-image: url(./src/background.png);
+    }
+
+    
+      
+
+    </style>
+</head>
+<body>
+    
+    <div class="default">
+      
+<div class="header"> 
+    
+<button class="btnmenu" onclick="menu()">Menü</button>
+    <a href="ders.html"><img src="src/hakkari2.png"></a>
+    <p class="Gizli-p"> MERHABALAR HOŞ GELDİNİZ 
+        <br> bu sitede güzel ilçemizin gelenek ve göreneklerini göstermek amaçlanmıştır. </p>
+</div>
+<div id="nav">  
+    
+   
+    
+    <ul>
+    <li><a href="./default.html">Ana Sayfa</a></li>
+    <li><a href="./gezilecek-yerler.html">Gezilecek yerler</a></li>
+    <li><a href="./onemliler.html">İz bırakanlar</a></li>
+ 
+</ul></div>
+<div class="content">
+
+    <main class="grafics">
+        <article class="onemliler">
+            <img src="./src/mahmuddayı.jpeg" alt="">
+            <div class="metin">
+                <h3>Mahmud Akdoğan</h3>
+                <p>Mela Mahmud Akdoğan Rumi 1328 Miladi 1910 yılında Şırnak’ın Beytüşşebap ilçesine bağlı Bölücek (Pîrosa) köyünde dünyaya geldi. Pirosan Aşireti Bilêlî Kabilesi, Mahmut ailesinden Mela Pürmüs Akdoğanın oğludur.</p>
+          
+            </div >
+        </article>
+        <article class="onemliler">
+            <img src="./src/sefikdayi.jpg" alt="">
+            <div class="metin">
+                <h3>Hacı Sefik</h3>
+                <p>1934 yılında Hakkari Merkez Dağgöl Mahallesinde dünyaya gelen Şefik Besi; namı diyar Hacı Şefik’ê Gravi, Gravi Aşiretinin Dedoyi kabilesindendir. Hakkari merkez Bulak Mahallesinde ikamet eden Hacı Şefik Besi girişken kişiliği ile çok erken yaşta ticarete atıldı.</p>
+            
+            </div>
+        </article>
+        <article class="onemliler">
+            <img src="./src/mselimefendi.jpg" alt="">
+            <div class="metin" >
+                <h3>Muhammet Selim Efendi</h3>
+                <p>
+  
+                    Mehmet Selim Seven, 1892 yılında Hakkari Merkeze bağlı Kavaklı (Marûnis) köyünde dünyaya geldi. Babası Abdullah Efendi ve annesi Emine Hanımdır. Birinci eşi olan Rabia Hanımın vefatından sonra, 1939 yılında Fatma hanım ile evlenmiştir.</p>
+           
+            </div>
+        </article>
+        <article class="onemliler">
+            <img src="./src/saitkorkmaz.jpg" alt="">
+            <div class="metin">
+                <h3>Sait Korkmaz</h3>
+                <p>SAİT KORKMAZ / SAİT AĞA Sait Korkmaz, bölgede bilinen namıyla Sait Ağa, 1860 yılında Hakkari merkez Dağgöl Mahallesi’nde dünyaya gelmiştir. Babasın Hacı Ali Ağa annesi ise Hamra’dir. Baba tarafından dedesinin ismi ise Keleş’tir.</p>
+            
+            </div>
+        </article>
+        <article class="onemliler">
+            <img src="./src/cemilonal.jpg" alt="">
+            <div class="metin">
+                <h3>Cemil Onal</h3>
+                <p>1933 Hakkari Merkez doğumlu olup ilkokul mezunudur. Hakkari’nin ilk esnaflarındandır. İlimizde Hakkari Sanayi Ticaret Odası, Hakkari Esnaf ve Sanatkarlar Odası, Hakkari Şoförler ve Otomobilciler Odası, Hakkari Esnaf ve Sanatkarlar Odaları Birliği ile Hakkari Esnaf ve Sanatkarlar Kefalet Kooperatifinin ilimizde faaliyete geçmesi için öncü birer kişilik olarak büyük çalışmalar yürütmüş ve bu Odaların kurulmasını hem sağlamış hem de Başkanlığını yapmıştır.</p>
+              
+            </div>
+        </article>
+         <article class="onemliler">
+            <img src="./src/feqiye.jpg" alt="">
+            <div class="metin">
+                <h3>Feqıyê Teyran</h3>
+                <p>Feqıyê Teyran Kürt edebiyat tarihinde önemli bir yere sahiptir. Diğer bütün eski Kürt Şairleri gibi bir İslam bilgini olan Feqıyê Teyran İslami bir aile içinde büyümüş, İslam’ı hakkıyla yaşamış bir şairdir. O’nun doğum yılı üzerine araştırmacılar birçok şey söylemişlerdir. Kendi şiirlerinde belirtildiğine göre Hicri 971’de dünyaya gelmiştir.</p>
+            
+            </div>
+        </article>
+    </main>
+
+
+
+</div>
+
+<div class="footer">
+    <a href="https://tr-tr.facebook.com/asilkan.zorlu.9"><img src="src/facebook.png" alt="facebook-icon">   </a>
+    <a href="https://www.twitter.com/bildoasil/"><img src="src/twitter.png" alt="twitter-icon">  </a>
+    <a href="https://www.instagram.com/bildoasil/"><img src="src/instagram.png" alt="instagram-icon"></a>
+    <h1>BİZİ TAKİP EDİN</h1>
+</div>
+
+
+
+
+  <script>
+    function menu() {
+  var menuackapa = document.getElementById("nav");
+  if (menuackapa.style.display === "none") {
+    menuackapa.style.display = "block";
+  } else {
+    menuackapa.style.display = "none";
+  }
+}
+  </script>
+</body>
+</html>
